@@ -13,6 +13,24 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
+@media print {
+  .flashcards-grid {
+    row-gap: 8mm !important;
+    column-gap: 0.5mm !important;
+    grid-template-columns: repeat(2, 76mm);
+    justify-content: center;
+  }
+
+  .flashcard {
+    page-break-inside: avoid;
+    box-shadow: none;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-bottom: 0;
+  }
+}
+
 .flashcard {
   position: relative;
 }
