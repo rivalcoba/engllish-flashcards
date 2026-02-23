@@ -1,2 +1,2 @@
-# engllish-flashcards
+# English-flashcards
 Aplicación para generar flashcards
