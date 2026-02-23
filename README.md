@@ -1,2 +1,2 @@
 # engllish-flashcards
-Aplicación para generar flashcards
+Sitio para generar flashcards de inglés con su pronunciación fonética.
