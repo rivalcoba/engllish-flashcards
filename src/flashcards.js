@@ -239,7 +239,112 @@ const flashcardsData = [
         word: "take off",
         phonetic: "/teɪk ɔːf/",
         url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVRkKcHzjs-_wOuySi6rGIyCoSgrUkzSwqpw&s"
-    }
+    },
+    {
+        word: "park",
+        phonetic: "/pɑːrk/",
+        url: "https://thumbs.dreamstime.com/b/family-holiday-nature-aerialview-city-park-people-summer-sport-recreation-panoramic-landscape-114535315.jpg"
+    },
+    {
+        word: "library",
+        phonetic: "/ˈlaɪˌbrɛri/",
+        url: "https://img.freepik.com/free-vector/library-flat-color-background-with-people-reading-books-table-searching-literature-bookshelves-vector-illustration_1284-73130.jpg"
+    },
+    {
+        word: "café",
+        phonetic: "/kæˈfeɪ/",
+        url: "https://static.vecteezy.com/system/resources/previews/002/832/412/non_2x/coffee-shop-illustration-with-open-board-tree-and-building-store-exterior-flat-design-concept-vector.jpg"
+    },
+    {
+        word: "movie theater",
+        phonetic: "/ˈmuːvi ˈθiːətər/",
+        url: "https://thumbs.dreamstime.com/b/movie-theater-stylized-stars-background-eps-42332215.jpg"
+    },
+    {
+        word: "hospital",
+        phonetic: "/ˈhɑːspɪtəl/",
+        url: "https://examtimeassets.s3.amazonaws.com/uploads/flash_card/image_question/9406001/desktop_55f20aae-878e-47e0-a1a9-0aae004c385a.png"
+    },
+    {
+        word: "town",
+        phonetic: "/taʊn/",
+        url: "https://static.vecteezy.com/system/resources/previews/047/075/856/non_2x/a-bright-colorful-illustration-of-a-town-street-featuring-charming-buildings-with-awnings-streetlights-and-trees-the-scene-is-set-on-a-sunny-day-with-clouds-in-the-sky-free-vector.jpg"
+    },
+    {
+        word: "sports center",
+        phonetic: "/spɔːrts ˈsɛntər/",
+        url: "https://img.freepik.com/free-vector/poster-kids-sportroom_1284-11221.jpg"
+    },
+    {
+        word: "grocery store",
+        phonetic: "/ˈɡroʊsəri stɔːr/",
+        url: "https://media.istockphoto.com/id/2223757149/vector/grocery-store-supermarket-people-choosing-goods-on-the-shelves-of-the-store-vector.jpg?s=612x612&w=0&k=20&c=9eQ0whA9hQfXmGSyx741kUsqiLmWVnOft647cNF4EZY="
+    },
+    {
+        word: "swimming pool",
+        phonetic: "/ˈswɪmɪŋ puːl/",
+        url: "https://i.pinimg.com/736x/48/0f/b5/480fb5367244fc646055a6b3ebf77e99.jpg"
+    },
+    {
+        word: "station",
+        phonetic: "/ˈsteɪʃən/",
+        url: "https://cdn.vectorstock.com/i/1000v/07/41/character-flat-drawing-bus-stop-with-shelter-vector-45850741.jpg"
+    },
+    {
+        word: "street",
+        phonetic: "/striːt/",
+        url: "https://img.freepik.com/free-vector/autumn-city-crossroad-with-wind-cityscape-vector_107791-18786.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+        word: "hotel",
+        phonetic: "/hoʊˈtɛl/",
+        url: "https://www.shutterstock.com/image-vector/hotel-vector-illustration-interior-exterior-260nw-2456717341.jpg"
+    },
+    {
+        word: "tree",
+        phonetic: "/triː/",
+        url: "https://png.pngtree.com/png-clipart/20231018/original/pngtree-beautiful-spring-tree-illustration-green-leaves-png-image_13356202.png"
+    },
+    {
+        word: "forest",
+        phonetic: "/ˈfɔːrɪst/",
+        url: "https://static.vecteezy.com/system/resources/previews/042/691/976/non_2x/forest-background-cartoon-illustration-flat-style-artwork-concept-free-vector.jpg"
+    },
+    {
+        word: "insects",
+        phonetic: "/ˈɪn.sɛkts/",
+        url: "https://img.freepik.com/free-vector/realistic-insects-white-background-cartoon-illustration-set-lady-bug-beetle-grub-cockroach-roach-ant-butterfly-bee-grasshopper-agriculture-nature-field-pest-concept_74855-25274.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+    {
+        word: "flowers",
+        phonetic: "/ˈflaʊərz/",
+        url: "https://cdn.creativefabrica.com/2023/03/31/Flower-Illustration-Graphics-65781471-1.png"
+    },
+    {
+        word: "leaves",
+        phonetic: "/liːvz/",
+        url: "https://static.vecteezy.com/system/resources/previews/047/422/354/non_2x/macro-leaves-nature-flat-illustration-free-vector.jpg"
+    },
+    {
+        word: "grass",
+        phonetic: "/ɡræs/",
+        url: "https://marketplace.canva.com/inPi8/MAG2x2inPi8/1/tl/canva-cartoon-illustration-of-green-grass-blades-on-a-black-background-MAG2x2inPi8.png"
+    },
+    {
+        word: "river",
+        phonetic: "/ˈrɪvər/",
+        url: "https://thumbs.dreamstime.com/b/beautiful-summer-landscape-background-clear-blue-river-lush-fields-fluffy-clouds-breathtaking-vibrant-vector-407230756.jpg"
+    },
+    {
+        word: "lake",
+        phonetic: "/leɪk/",
+        url: "https://media.istockphoto.com/id/1249854606/vector/picturesque-water-pond-with-reeds-the-concept-of-an-open-small-swamp.jpg?s=612x612&w=0&k=20&c=H8jDRkPNfGHWhj_2hiSi22MYkVntR3nIHC115_GXLRE="
+    },
+    {
+        word: "mountain",
+        phonetic: "/ˈmaʊntən/",
+        url: "https://t3.ftcdn.net/jpg/19/02/91/94/360_F_1902919415_tN5c9qfRdP9SgHA7lJxAsieWbL59SoAa.jpg"
+    },
 ];
 
 // Variable para el nombre (modificable desde el script)
