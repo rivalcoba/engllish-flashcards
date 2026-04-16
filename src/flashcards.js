@@ -348,7 +348,7 @@ const flashcardsData = [
 ];
 
 // Variable para el nombre (modificable desde el script)
-export let liamName = "Liam Rivalcoba";
+export let liamName = "Verison Yerik";
 
 // Función para generar las flashcards
 export function generateFlashcards() {
