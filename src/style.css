@@ -13,21 +13,59 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
+@page {
+  size: 76mm 127mm;
+  margin: 0;
+}
+
 @media print {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    width: 76mm;
+  }
+
+  .container {
+    max-width: none;
+    width: 76mm;
+    margin: 0;
+    padding: 0;
+  }
+
   .flashcards-grid {
-    row-gap: 8mm !important;
-    column-gap: 0.5mm !important;
-    grid-template-columns: repeat(2, 76mm);
-    justify-content: center;
+    display: block !important;
+    width: 76mm;
+    margin: 0;
+    padding: 0;
   }
 
   .flashcard {
-    page-break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    width: 60mm;
+    height: 180mm;
     box-shadow: none;
     background: white;
     border: 2px solid #333;
     border-radius: 8px;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0.3cm;
+    overflow: hidden;
+    page-break-after: always;
+    break-after: page;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .flashcard:last-child {
+    page-break-after: avoid;
+    break-after: avoid;
   }
 }
 
@@ -67,8 +105,8 @@ body {
 }
 
 .flashcard {
-  width: 76mm;
-  height: 127mm;
+  width: 60mm;
+  height: 114.5mm;
   background: white;
   border: 2px solid #333;
   border-radius: 8px;
@@ -117,21 +155,4 @@ body {
   font-size: 18px;
   color: #666;
   font-style: italic;
-}
-
-@media print {
-  body {
-    background: white;
-  }
-
-  .flashcards-grid {
-    column-gap: 0.5mm;
-    row-gap: 5mm;
-    gap: unset;
-  }
-
-  .flashcard {
-    box-shadow: none;
-    page-break-inside: avoid;
-  }
 }
