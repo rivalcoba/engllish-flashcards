@@ -48,14 +48,16 @@
   .flashcard {
     display: flex;
     flex-direction: column;
-    width: 60mm;
-    height: 180mm;
+    width: calc(100vw - 0mm);
+    height: calc(100vh - 0mm);
     box-shadow: none;
     background: white;
     border: 2px solid #333;
     border-radius: 8px;
-    margin: 0;
-    padding: 0.3cm;
+    margin: 5mm;
+    margin-left: 0mm;
+    margin-bottom: auto;
+    padding: 0.5cm;
     overflow: hidden;
     page-break-after: always;
     break-after: page;
@@ -105,8 +107,8 @@ body {
 }
 
 .flashcard {
-  width: 60mm;
-  height: 114.5mm;
+  width: 70mm;
+  height: 110mm;
   background: white;
   border: 2px solid #333;
   border-radius: 8px;
